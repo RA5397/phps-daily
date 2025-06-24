@@ -9,22 +9,25 @@ Rank (Updated: 24-June-25),Player,Team,AVG,Opponent,PHPS Hit %,PHPS+ %,PHPS-HR %
 8.0,Kyle Tucker,Cubs,0.281,TBD,71.0,74.0,8.0,2.25,"BABIP Regression, L/R Bonus","Pull%, Park Factor","BABIP Regression, L/R Bonus","Pull%, Park Factor"
 9.0,Vladimir Guerrero Jr.,Blue Jays,0.297,Logan Allen (4.12),71.0,73.0,9.0,2.3,"Pitcher Fatigue, Umpire Zone","Barrel%, Pitch Type, Exit Velo","Pitcher Fatigue, Umpire Zone","Barrel%, Pitch Type, Exit Velo"
 10.0,Jeremy Peña,Astros,0.326,Ranger Suárez (2.20),70.0,72.0,7.0,2.1,"Park Dimensions, xwOBA","Weather, xHR, L/R Split","Park Dimensions, xwOBA","Weather, xHR, L/R Split"
-11.0,Juan Soto,Yankees,0.302,TBD,70.0,72.0,8.0,2.2,"xwOBA vs Pitch Type, Shift Impact","xHR, Pull%, Sprint Speed","xwOBA vs Pitch Type, Shift Impact","xHR, Pull%, Sprint Speed"
-12.0,Mookie Betts,Dodgers,0.295,TBD,70.0,72.0,7.5,2.15,"Lineup Protection, Sprint Speed","FB%, Park Factor","Lineup Protection, Sprint Speed","FB%, Park Factor"
+11.0,Juan Soto,Yankees,0.302,Carlos Rodón (3.10),70.0,72.0,8.0,2.2,"xwOBA vs Pitch Type, Shift Impact","xHR, Pull%, Sprint Speed","xwOBA vs Pitch Type, Shift Impact","xHR, Pull%, Sprint Speed"
+12.0,Mookie Betts,Dodgers,0.295,Logan Webb (2.49),70.0,72.0,7.5,2.15,"Lineup Protection, Sprint Speed","FB%, Park Factor","Lineup Protection, Sprint Speed","FB%, Park Factor"
 13.0,Jonathan Aranda,Rays,0.325,Taj Bradley (4.95),69.0,71.0,6.5,2.0,"Umpire Zone Bias, BABIP Regression","Barrel%, L/R Split","Umpire Zone Bias, BABIP Regression","Barrel%, L/R Split"
 14.0,Bobby Witt Jr.,Royals,0.298,Kris Bubic (2.22),68.0,70.0,7.0,2.1,"Pitcher Fatigue, xwOBA, Protection","Barrel%, Weather","Pitcher Fatigue, xwOBA, Protection","Barrel%, Weather"
 15.0,Yandy Díaz,Rays,0.286,Taj Bradley (4.95),68.0,70.0,6.0,2.05,"Shift Impact, Park Dimensions","Pitcher HR/9, xHR","Shift Impact, Park Dimensions","Pitcher HR/9, xHR"
 16.0,Pete Crow-Armstrong,Cubs,0.3,TBD,67.0,69.0,5.5,1.9,"Umpire Bias, Lineup Protection","xHR, Pull%, Park Factor","Umpire Bias, Lineup Protection","xHR, Pull%, Park Factor"
-17.0,Will Smith,Dodgers,0.328,TBD,67.0,69.0,6.0,2.0,"Sprint Speed, Park Dimensions","Sprint Speed, Park Factor","Sprint Speed, Park Dimensions","Sprint Speed, Park Factor"
+17.0,Will Smith,Dodgers,0.328,Logan Webb (2.49),67.0,69.0,6.0,2.0,"Sprint Speed, Park Dimensions","Sprint Speed, Park Factor","Sprint Speed, Park Dimensions","Sprint Speed, Park Factor"
 18.0,Trent Grisham,Tigers,0.223,Luis Severino (4.42),66.0,68.0,4.5,1.85,"BABIP Regression, xwOBA","FB%, Pitch Type","BABIP Regression, xwOBA","FB%, Pitch Type"
 19.0,Jacob Wilson,Athletics,0.349,TBD,65.0,67.0,4.0,1.8,"Shift Impact, L/R Matchup","L/R Split, Exit Velo","Shift Impact, L/R Matchup","L/R Split, Exit Velo"
 20.0,Corey Seager,Rangers,0.288,TBD,65.0,67.0,6.0,2.1,"Pitch Type Matchup, Recent Form","Barrel%, xHR","Pitch Type Matchup, Recent Form","Barrel%, xHR"
-21.0,Matt Olson,Braves,0.282,TBD,64.0,66.0,5.5,2.05,"Lineup Protection, Shift Impact","FB%, Wind, Park Factor","Lineup Protection, Shift Impact","FB%, Wind, Park Factor"
+21.0,Matt Olson,Braves,0.282,Spencer Strider (3.89),64.0,66.0,5.5,2.05,"Lineup Protection, Shift Impact","FB%, Wind, Park Factor","Lineup Protection, Shift Impact","FB%, Wind, Park Factor"
 22.0,Jarren Duran,Red Sox,0.293,TBD,63.0,65.0,6.0,2.0,"Recent xwOBA, Fatigue","Pitcher HR/9, L/R Split","Recent xwOBA, Fatigue","Pitcher HR/9, L/R Split"
 23.0,Bryce Harper,Phillies,0.304,TBD,63.0,65.0,6.0,2.15,"BABIP Regression, Sprint Speed","Barrel%, Pull%, Park Factor","BABIP Regression, Sprint Speed","Barrel%, Pull%, Park Factor"
 24.0,Rafael Devers,Red Sox,0.296,TBD,62.0,64.0,6.0,2.0,"Umpire Zone Bias, Park Dimensions","Barrel%, xHR, Pitch Type","Umpire Zone Bias, Park Dimensions","Barrel%, xHR, Pitch Type"
 25.0,Adley Rutschman,Orioles,0.307,TBD,62.0,64.0,6.0,2.05,"xwOBA vs Pitch Type, Shift Impact","Weather, Exit Velo","xwOBA vs Pitch Type, Shift Impact","Weather, Exit Velo"
-,,,,,,,,,,,,
+,PHPS Hit %,"Probability of at least one hit based on contact quality, pitch matchup, park, weather, splits, and recent form.",,,,,,,,,,
+,PHPS+ %,"Enhanced hit probability using PHPS plus lineup protection, pitcher fatigue, bullpen usage, umpire zone bias, sprint speed, batter vs. pitcher history, BABIP regression, shift impact, and park dimension adjustments.",,,,,,,,,,
+,PHPS-HR %,"Home Run probability calculated using Barrel %, FB%, Pull %, Pitcher HR/9, park HR factor, and exit velocity + launch angle.",,,,,,,,,,
+,PHPS-TB,"Projected total bases considering SLG vs L/R, XBH%, pitcher's ISO allowed, ballpark factor, and recent batted-ball trends.",,,,,,,,,,
 ,PHPS Hit %,"Probability of at least one hit based on contact quality, pitch matchup, park, weather, splits, and recent form.",,,,,,,,,,
 ,PHPS+ %,"Enhanced hit probability using PHPS plus lineup protection, pitcher fatigue, bullpen usage, umpire zone bias, sprint speed, batter vs. pitcher history, BABIP regression, shift impact, and park dimension adjustments.",,,,,,,,,,
 ,PHPS-HR %,"Home Run probability calculated using Barrel %, FB%, Pull %, Pitcher HR/9, park HR factor, and exit velocity + launch angle.",,,,,,,,,,
@@ -34,3 +37,10 @@ Rank (Updated: 24-June-25),Player,Team,AVG,Opponent,PHPS Hit %,PHPS+ %,PHPS-HR %
 ,PHPS+ %,"Enhanced hit probability using PHPS plus lineup protection, pitcher fatigue, bullpen usage, umpire zone bias, sprint speed, batter vs. pitcher history, BABIP regression, shift impact, and park dimension adjustments.",,,,,,,,,,
 ,PHPS-HR %,"Home Run probability calculated using Barrel %, FB%, Pull %, Pitcher HR/9, park HR factor, and exit velocity + launch angle.",,,,,,,,,,
 ,PHPS-TB,"Projected total bases considering SLG vs L/R, XBH%, pitcher's ISO allowed, ballpark factor, and recent batted-ball trends.",,,,,,,,,,
+,Barrel%,Percentage of batted balls hit with optimal exit velocity and launch angle for HR/XBH potential.,,,,,,,,,,
+,xHR,"Expected home runs based on quality of contact, trajectory, and park factors.",,,,,,,,,,
+,Sprint Speed,Player's top speed (feet per second) — helps assess infield hit potential and base running value.,,,,,,,,,,
+,Pull%,Percentage of balls hit to the pull side — often linked to power production and HR risk.,,,,,,,,,,
+,xwOBA,"Expected weighted On-Base Average — quality of contact adjusted for walk, strikeout, and ball-in-play outcomes.",,,,,,,,,,
+,BABIP,Batting Average on Balls in Play — used to identify potential regression or luck-driven results.,,,,,,,,,,
+,Park Factor,"Measures how hitter/pitcher friendly a stadium is for various outcomes (HRs, doubles, singles, etc.)",,,,,,,,,,
