@@ -1,4 +1,4 @@
-Player,Team,Weighted BA,LD% FanGraphs,Pitcher,ERA (3-digit),Weather Boost,Hit Potential Score (out of 100)
+Player,Team,Weighted BA,LD%+,Pitcher,ERA (3-digit),Weather Boost,Hit Potential Score (out of 100)
 Freddie Freeman,Dodgers,0.3273778106447297,29.4,Zack Wheeler,5.156,1.0,100.0
 Aaron Judge,Yankees,0.3692352136885505,22.5,Justin Verlander,4.147,0.25,99.36191759966981
 Jonathan Aranda,Rays,0.32608883022204715,28.0,Zack Wheeler,3.721,0.5,97.21401304419531
