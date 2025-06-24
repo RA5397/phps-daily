@@ -24,14 +24,6 @@ Rank (Updated: 24-June-25),Player,Team,AVG,Opponent,PHPS Hit %,PHPS+ %,PHPS-HR %
 23.0,Bryce Harper,Phillies,0.304,TBD,63.0,65.0,6.0,2.15,"BABIP Regression, Sprint Speed","Barrel%, Pull%, Park Factor","BABIP Regression, Sprint Speed","Barrel%, Pull%, Park Factor"
 24.0,Rafael Devers,Red Sox,0.296,TBD,62.0,64.0,6.0,2.0,"Umpire Zone Bias, Park Dimensions","Barrel%, xHR, Pitch Type","Umpire Zone Bias, Park Dimensions","Barrel%, xHR, Pitch Type"
 25.0,Adley Rutschman,Orioles,0.307,TBD,62.0,64.0,6.0,2.05,"xwOBA vs Pitch Type, Shift Impact","Weather, Exit Velo","xwOBA vs Pitch Type, Shift Impact","Weather, Exit Velo"
-,PHPS Hit %,"Probability of at least one hit based on contact quality, pitch matchup, park, weather, splits, and recent form.",,,,,,,,,,
-,PHPS+ %,"Enhanced hit probability using PHPS plus lineup protection, pitcher fatigue, bullpen usage, umpire zone bias, sprint speed, batter vs. pitcher history, BABIP regression, shift impact, and park dimension adjustments.",,,,,,,,,,
-,PHPS-HR %,"Home Run probability calculated using Barrel %, FB%, Pull %, Pitcher HR/9, park HR factor, and exit velocity + launch angle.",,,,,,,,,,
-,PHPS-TB,"Projected total bases considering SLG vs L/R, XBH%, pitcher's ISO allowed, ballpark factor, and recent batted-ball trends.",,,,,,,,,,
-,PHPS Hit %,"Probability of at least one hit based on contact quality, pitch matchup, park, weather, splits, and recent form.",,,,,,,,,,
-,PHPS+ %,"Enhanced hit probability using PHPS plus lineup protection, pitcher fatigue, bullpen usage, umpire zone bias, sprint speed, batter vs. pitcher history, BABIP regression, shift impact, and park dimension adjustments.",,,,,,,,,,
-,PHPS-HR %,"Home Run probability calculated using Barrel %, FB%, Pull %, Pitcher HR/9, park HR factor, and exit velocity + launch angle.",,,,,,,,,,
-,PHPS-TB,"Projected total bases considering SLG vs L/R, XBH%, pitcher's ISO allowed, ballpark factor, and recent batted-ball trends.",,,,,,,,,,
 ,,,,,,,,,,,,
 ,PHPS Hit %,"Probability of at least one hit based on contact quality, pitch matchup, park, weather, splits, and recent form.",,,,,,,,,,
 ,PHPS+ %,"Enhanced hit probability using PHPS plus lineup protection, pitcher fatigue, bullpen usage, umpire zone bias, sprint speed, batter vs. pitcher history, BABIP regression, shift impact, and park dimension adjustments.",,,,,,,,,,
