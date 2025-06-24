@@ -1,31 +1,26 @@
-Rank (Updated: 24-June-25),Player,Team,AVG,Opponent,PHPS Hit %,PHPS+ %,PHPS-HR %,PHPS-TB
-1,Aaron Judge,Yankees,0.367,Carlos Rodón (3.10),79,83,9.0,2.3
-2,Freddie Freeman,Dodgers,0.328,Zack Wheeler (2.61),74,78,7.0,2.1
-3,José Ramírez,Guardians,0.323,Eric Lauer (2.29),73,77,6.0,2.05
-4,Shohei Ohtani,Dodgers,0.297,Logan Webb (2.49),73,78,8.0,2.2
-5,Cal Raleigh,Mariners,0.276,Justin Verlander (4.61),72,75,5.0,1.95
-6,Ronald Acuña Jr.,Braves,0.291,Spencer Strider (3.89),72,76,7.5,2.15
-7,Michael Harris II,Braves,0.283,Spencer Strider (3.89),71,74,6.0,2.0
-8,Kyle Tucker,Cubs,0.281,TBD,71,74,8.0,2.25
-9,Vladimir Guerrero Jr.,Blue Jays,0.297,Logan Allen (4.12),71,73,9.0,2.3
-10,Jeremy Peña,Astros,0.326,Ranger Suárez (2.20),70,72,7.0,2.1
-11,Juan Soto,Yankees,0.302,TBD,70,72,8.0,2.2
-12,Mookie Betts,Dodgers,0.295,TBD,70,72,7.5,2.15
-13,Jonathan Aranda,Rays,0.325,Taj Bradley (4.95),69,71,6.5,2.0
-14,Bobby Witt Jr.,Royals,0.298,Kris Bubic (2.22),68,70,7.0,2.1
-15,Yandy Díaz,Rays,0.286,Taj Bradley (4.95),68,70,6.0,2.05
-16,Pete Crow-Armstrong,Cubs,0.3,TBD,67,69,5.5,1.9
-17,Will Smith,Dodgers,0.328,TBD,67,69,6.0,2.0
-18,Trent Grisham,Tigers,0.223,Luis Severino (4.42),66,68,4.5,1.85
-19,Jacob Wilson,Athletics,0.349,TBD,65,67,4.0,1.8
-20,Corey Seager,Rangers,0.288,TBD,65,67,6.0,2.1
-21,Matt Olson,Braves,0.282,TBD,64,66,5.5,2.05
-22,Jarren Duran,Red Sox,0.293,TBD,63,65,6.0,2.0
-23,Bryce Harper,Phillies,0.304,TBD,63,65,6.0,2.15
-24,Rafael Devers,Red Sox,0.296,TBD,62,64,6.0,2.0
-25,Adley Rutschman,Orioles,0.307,TBD,62,64,6.0,2.05
-,,,,,,,,
-,PHPS Hit %,"Probability of at least one hit based on contact quality, pitch matchup, park, weather, splits, and recent form.",,,,,,
-,PHPS+ %,"Enhanced hit probability using PHPS plus lineup protection, pitcher fatigue, bullpen usage, umpire zone bias, sprint speed, batter vs. pitcher history, BABIP regression, shift impact, and park dimension adjustments.",,,,,,
-,PHPS-HR %,"Home Run probability calculated using Barrel %, FB%, Pull %, Pitcher HR/9, park HR factor, and exit velocity + launch angle.",,,,,,
-,PHPS-TB,"Projected total bases considering SLG vs L/R, XBH%, pitcher's ISO allowed, ballpark factor, and recent batted-ball trends.",,,,,,
+Rank (Updated: 24-June-25),Player,Team,AVG,PHPS Hit %,PHPS+ %,PHPS+ Boost Factors,PHPS-HR %,HR Boost Factors,PHPS-TB
+1,Aaron Judge,Yankees,0.367,79,83,"Lineup Protection, Sprint Speed, BABIP Regression",9.0,"Barrel%, Park Factor, L/R Split",2.3
+2,Freddie Freeman,Dodgers,0.328,74,78,"Umpire Zone Bias, Recent Form, Pitcher Fatigue",7.0,"FB%, xHR, Pitcher HR/9",2.1
+3,José Ramírez,Guardians,0.323,73,77,"Pitcher Fatigue, xwOBA vs Pitch Type, Shift Impact",6.0,"Barrel%, Pull%, Recent Form",2.05
+4,Shohei Ohtani,Dodgers,0.297,73,78,"Lineup Protection, Shift Impact, Park Dimensions",8.0,"LA, Weather, Park Factor",2.2
+5,Cal Raleigh,Mariners,0.276,72,75,"Recent xwOBA, Sprint Speed, L/R Matchup Bonus",5.0,"Pull%, Wind, xHR",1.95
+6,Ronald Acuña Jr.,Braves,0.291,72,76,"xwOBA, Fatigue, Shift Impact",7.5,"Barrel%, xHR, Park Factor",2.15
+7,Michael Harris II,Braves,0.283,71,74,"Lineup Protection, Sprint Speed",6.0,"FB%, Pitcher HR/9",2.0
+8,Kyle Tucker,Cubs,0.281,71,74,"BABIP Regression, L/R Bonus",8.0,"Pull%, Park Factor",2.25
+9,Vladimir Guerrero Jr.,Blue Jays,0.297,71,73,"Pitcher Fatigue, Umpire Zone",9.0,"Barrel%, Pitch Type, Exit Velo",2.3
+10,Jeremy Peña,Astros,0.326,70,72,"Park Dimensions, xwOBA",7.0,"Weather, xHR, L/R Split",2.1
+11,Juan Soto,Yankees,0.302,70,72,"xwOBA vs Pitch Type, Shift Impact",8.0,"xHR, Pull%, Sprint Speed",2.2
+12,Mookie Betts,Dodgers,0.295,70,72,"Lineup Protection, Sprint Speed",7.5,"FB%, Park Factor",2.15
+13,Jonathan Aranda,Rays,0.325,69,71,"Umpire Zone Bias, BABIP Regression",6.5,"Barrel%, L/R Split",2.0
+14,Bobby Witt Jr.,Royals,0.298,68,70,"Pitcher Fatigue, xwOBA, Protection",7.0,"Barrel%, Weather",2.1
+15,Yandy Díaz,Rays,0.286,68,70,"Shift Impact, Park Dimensions",6.0,"Pitcher HR/9, xHR",2.05
+16,Pete Crow-Armstrong,Cubs,0.3,67,69,"Umpire Bias, Lineup Protection",5.5,"xHR, Pull%, Park Factor",1.9
+17,Will Smith,Dodgers,0.328,67,69,"Sprint Speed, Park Dimensions",6.0,"Sprint Speed, Park Factor",2.0
+18,Trent Grisham,Tigers,0.223,66,68,"BABIP Regression, xwOBA",4.5,"FB%, Pitch Type",1.85
+19,Jacob Wilson,Athletics,0.349,65,67,"Shift Impact, L/R Matchup",4.0,"L/R Split, Exit Velo",1.8
+20,Corey Seager,Rangers,0.288,65,67,"Pitch Type Matchup, Recent Form",6.0,"Barrel%, xHR",2.1
+21,Matt Olson,Braves,0.282,64,66,"Lineup Protection, Shift Impact",5.5,"FB%, Wind, Park Factor",2.05
+22,Jarren Duran,Red Sox,0.293,63,65,"Recent xwOBA, Fatigue",6.0,"Pitcher HR/9, L/R Split",2.0
+23,Bryce Harper,Phillies,0.304,63,65,"BABIP Regression, Sprint Speed",6.0,"Barrel%, Pull%, Park Factor",2.15
+24,Rafael Devers,Red Sox,0.296,62,64,"Umpire Zone Bias, Park Dimensions",6.0,"Barrel%, xHR, Pitch Type",2.0
+25,Adley Rutschman,Orioles,0.307,62,64,"xwOBA vs Pitch Type, Shift Impact",6.0,"Weather, Exit Velo",2.05
