@@ -1,0 +1,26 @@
+Player,Team,Weighted BA,Opponent,PHPS Hit %,PHPS+ %,Pitch Type Score,xwOBA 7-Day Trend,BvP Bonus,PHPS+ Boost Factors,PHPS-HR %,HR Boost Factors,PHPS-TB
+Player 84,Mets,0.294,Braves,69.2,85.518,1.92,-0.01,0.5,"Barrel%, Sprint Speed",10.6,"Pull%, xHR",2.74
+Player 40,Braves,0.303,Blue Jays,64.3,85.47,0.95,0.007,0.5,"Recent Form, Pull%",10.2,"Pull%, xHR",2.74
+Player 57,Mets,0.299,Guardians,69.8,84.498,-0.78,-0.007,1.5,"xwOBA, Park Factor",19.4,"Pull%, xHR",1.62
+Player 54,Astros,0.306,Astros,79.0,84.46,-1.1,-0.01,1.0,"Barrel%, Sprint Speed",5.2,Sprint Speed,2.65
+Player 96,Guardians,0.273,Braves,65.5,84.328,0.42,0.003,0.0,"xwOBA, Park Factor",5.3,Sprint Speed,1.06
+Player 94,Guardians,0.291,Cubs,78.4,84.198,2.37,-0.01,0.5,"xwOBA, Park Factor",8.5,Sprint Speed,2.54
+Player 50,Guardians,0.278,Astros,75.7,83.938,3.02,-0.021,1.5,"Recent Form, Pull%",18.7,"Weather, Exit Velo",2.35
+Player 24,Mets,0.327,Guardians,67.2,83.258,0.57,-0.001,1.5,"xwOBA, Park Factor",19.8,"Weather, Exit Velo",1.66
+Player 99,Guardians,0.274,Cubs,63.7,83.132,-0.67,-0.005,0.0,"Recent Form, Pull%",7.7,"Pull%, xHR",3.19
+Player 10,Yankees,0.293,Astros,80.0,82.962,-0.42,-0.001,1.5,"xwOBA, Park Factor",19.0,"Weather, Exit Velo",2.51
+Player 63,Blue Jays,0.335,Astros,72.7,82.858,-0.73,-0.015,0.5,"Barrel%, Sprint Speed",13.9,"Weather, Exit Velo",2.76
+Player 95,Guardians,0.29,Dodgers,61.2,81.764,-0.14,0.026,1.0,"Barrel%, Sprint Speed",15.1,"Weather, Exit Velo",1.58
+Player 58,Dodgers,0.323,Cubs,65.2,81.26599999999999,0.34,-0.036,0.5,"Barrel%, Sprint Speed",7.2,"Weather, Exit Velo",2.22
+Player 86,Braves,0.293,Blue Jays,67.3,81.09800000000001,0.07,0.006,1.5,"Barrel%, Sprint Speed",14.7,"Weather, Exit Velo",2.81
+Player 67,Astros,0.326,Blue Jays,62.6,80.262,0.88,0.023,0.5,"Recent Form, Pull%",18.5,"Weather, Exit Velo",3.29
+Player 89,Astros,0.295,Dodgers,60.8,80.208,0.97,0.016,1.0,"xwOBA, Park Factor",7.3,"Weather, Exit Velo",2.35
+Player 59,Braves,0.286,Dodgers,69.2,79.912,-0.02,-0.024,0.0,"Recent Form, Pull%",11.2,"Pull%, xHR",1.55
+Player 27,Guardians,0.324,Mets,70.4,79.912,0.43,-0.023,1.0,"Barrel%, Sprint Speed",18.8,Sprint Speed,2.24
+Player 6,Mets,0.335,Blue Jays,65.5,79.11200000000001,2.18,-0.023,0.0,"Barrel%, Sprint Speed",12.6,Sprint Speed,1.12
+Player 32,Dodgers,0.314,Yankees,71.2,78.868,-0.83,0.005,1.0,"xwOBA, Park Factor",5.8,"Weather, Exit Velo",1.19
+Player 98,Astros,0.305,Yankees,75.0,78.52199999999999,0.28,-0.007,0.5,"Recent Form, Pull%",17.0,"Pull%, xHR",1.05
+Player 9,Cubs,0.273,Blue Jays,76.3,78.508,-0.63,0.023,1.0,"Recent Form, Pull%",18.1,"Pull%, xHR",1.21
+Player 88,Dodgers,0.319,Mets,73.8,77.898,1.12,0.01,0.5,"xwOBA, Park Factor",5.4,"Pull%, xHR",1.79
+Player 3,Blue Jays,0.336,Blue Jays,76.8,77.67,3.45,0.002,1.5,"Recent Form, Pull%",19.2,Sprint Speed,2.05
+Player 26,Guardians,0.321,Braves,73.4,77.47600000000001,0.74,-0.016,1.0,"xwOBA, Park Factor",6.9,"Pull%, xHR",1.13
