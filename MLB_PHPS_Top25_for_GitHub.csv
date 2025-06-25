@@ -1,26 +1,26 @@
 Player,Team,Weighted BA,Opponent,PHPS Hit %,PHPS+ %,PHPS+ Boost Factors,PHPS-HR %,HR Boost Factors,PHPS-TB
-Aaron Judge,Yankees,0.3692352136885505,Carlos Rodón (3.10),79.0,83.0,"Lineup Protection, Sprint Speed, BABIP Regression",9.0,"Barrel%, Park Factor, L/R Split",2.3
-Freddie Freeman,Dodgers,0.3273778106447297,Zack Wheeler (2.61),74.0,78.0,"Umpire Zone Bias, Recent Form, Pitcher Fatigue",7.0,"FB%, xHR, Pitcher HR/9",2.1
-José Ramírez,Guardians,0.3259145984214531,Eric Lauer (2.29),73.0,77.0,"Pitcher Fatigue, xwOBA vs Pitch Type, Shift Impact",6.0,"Barrel%, Pull%, Recent Form",2.05
-Shohei Ohtani,Dodgers,0.30385363435383606,Logan Webb (2.49),73.0,78.0,"Lineup Protection, Shift Impact, Park Dimensions",8.0,"LA, Weather, Park Factor",2.2
-Cal Raleigh,Mariners,0.274946309813745,Justin Verlander (4.61),72.0,75.0,"Recent xwOBA, Sprint Speed, L/R Matchup Bonus",5.0,"Pull%, Wind, xHR",1.95
-Ronald Acuña Jr.,Braves,0.28994638369372866,Spencer Strider (3.89),72.0,76.0,"xwOBA, Fatigue, Shift Impact",7.5,"Barrel%, xHR, Park Factor",2.15
-Michael Harris II,Braves,0.2901064576697832,Spencer Strider (3.89),71.0,74.0,"Lineup Protection, Sprint Speed",6.0,"FB%, Pitcher HR/9",2.0
-Kyle Tucker,Cubs,0.2844534562811881,TBD,71.0,74.0,"BABIP Regression, L/R Bonus",8.0,"Pull%, Park Factor",2.25
-Vladimir Guerrero Jr.,Blue Jays,0.2948873652632927,Logan Allen (4.12),71.0,73.0,"Pitcher Fatigue, Umpire Zone",9.0,"Barrel%, Pitch Type, Exit Velo",2.3
-Jeremy Peña,Astros,0.3284415201961368,Ranger Suárez (2.20),70.0,72.0,"Park Dimensions, xwOBA",7.0,"Weather, xHR, L/R Split",2.1
-Juan Soto,Yankees,0.2999146203823439,Carlos Rodón (3.10),70.0,72.0,"xwOBA vs Pitch Type, Shift Impact",8.0,"xHR, Pull%, Sprint Speed",2.2
-Mookie Betts,Dodgers,0.2929042161089338,Logan Webb (2.49),70.0,72.0,"Lineup Protection, Sprint Speed",7.5,"FB%, Park Factor",2.15
-Jonathan Aranda,Rays,0.32608883022204715,Taj Bradley (4.95),69.0,71.0,"Umpire Zone Bias, BABIP Regression",6.5,"Barrel%, L/R Split",2.0
-Bobby Witt Jr.,Royals,0.2893902388990399,Kris Bubic (2.22),68.0,70.0,"Pitcher Fatigue, xwOBA, Protection",7.0,"Barrel%, Weather",2.1
-Yandy Díaz,Rays,0.2782378697536913,Taj Bradley (4.95),68.0,70.0,"Shift Impact, Park Dimensions",6.0,"Pitcher HR/9, xHR",2.05
-Pete Crow-Armstrong,Cubs,0.2974697061184156,TBD,67.0,69.0,"Umpire Bias, Lineup Protection",5.5,"xHR, Pull%, Park Factor",1.9
-Will Smith,Dodgers,0.32344225995849507,Logan Webb (2.49),67.0,69.0,"Sprint Speed, Park Dimensions",6.0,"Sprint Speed, Park Factor",2.0
-Trent Grisham,Tigers,0.22441411299667874,Luis Severino (4.42),66.0,68.0,"BABIP Regression, xwOBA",4.5,"FB%, Pitch Type",1.85
-Jacob Wilson,Athletics,0.3449138916601545,TBD,65.0,67.0,"Shift Impact, L/R Matchup",4.0,"L/R Split, Exit Velo",1.8
-Corey Seager,Rangers,0.28164463334399115,TBD,65.0,67.0,"Pitch Type Matchup, Recent Form",6.0,"Barrel%, xHR",2.1
-Matt Olson,Braves,0.28859541946014694,Spencer Strider (3.89),64.0,66.0,"Lineup Protection, Shift Impact",5.5,"FB%, Wind, Park Factor",2.05
-Jarren Duran,Red Sox,0.29198400664781055,TBD,63.0,65.0,"Recent xwOBA, Fatigue",6.0,"Pitcher HR/9, L/R Split",2.0
-Bryce Harper,Phillies,0.3043038769210956,TBD,63.0,65.0,"BABIP Regression, Sprint Speed",6.0,"Barrel%, Pull%, Park Factor",2.15
-Rafael Devers,Red Sox,0.2895886331620394,TBD,62.0,64.0,"Umpire Zone Bias, Park Dimensions",6.0,"Barrel%, xHR, Pitch Type",2.0
-Adley Rutschman,Orioles,0.30455027773963667,TBD,62.0,64.0,"xwOBA vs Pitch Type, Shift Impact",6.0,"Weather, Exit Velo",2.05
+Player 1,Team D,0.301,Pitcher X,77.9,78.62447436045612,"Barrel%, Sprint Speed",8.9,"xHR, Weather",1.32
+Player 2,Team E,0.294,Pitcher X,65.1,67.54726380138781,Recent Form,14.4,"xHR, Weather",2.8
+Player 3,Team C,0.273,Pitcher W,72.7,77.628252270553,"Pull%, Park Factor",6.4,"Pull%, Pitcher HR/9",2.21
+Player 4,Team E,0.328,Pitcher Z,71.3,72.5102763575575,Recent Form,8.4,"xHR, Weather",1.02
+Player 5,Team E,0.284,Pitcher Z,68.3,71.66067773702939,Recent Form,6.1,Barrel%,1.2
+Player 6,Team B,0.275,Pitcher X,66.8,70.60809807664359,"Pull%, Park Factor",14.2,Barrel%,2.33
+Player 7,Team C,0.307,Pitcher Z,70.1,71.288187719962,"Barrel%, Sprint Speed",13.8,"xHR, Weather",1.01
+Player 8,Team C,0.293,Pitcher Z,79.1,82.7410817430593,"Pull%, Park Factor",7.6,Barrel%,1.32
+Player 9,Team C,0.329,Pitcher X,69.8,71.63891566359626,"Barrel%, Sprint Speed",11.6,"xHR, Weather",2.1
+Player 10,Team E,0.298,Pitcher Z,72.8,75.9615291529679,Recent Form,13.2,"xHR, Weather",2.38
+Player 11,Team D,0.322,Pitcher V,75.5,78.66764855380447,"Barrel%, Sprint Speed",10.6,Barrel%,2.3
+Player 12,Team C,0.311,Pitcher Y,70.5,73.17887342037379,"Barrel%, Sprint Speed",10.3,"xHR, Weather",1.45
+Player 13,Team E,0.297,Pitcher Y,79.6,80.05144885027204,"Barrel%, Sprint Speed",7.4,Barrel%,2.42
+Player 14,Team B,0.271,Pitcher X,79.4,83.5765124779462,Recent Form,5.9,"Pull%, Pitcher HR/9",1.47
+Player 15,Team D,0.327,Pitcher W,68.8,70.40390032485868,Recent Form,14.0,"xHR, Weather",1.65
+Player 16,Team B,0.304,Pitcher X,72.5,73.43259255199928,"Barrel%, Sprint Speed",14.0,"Pull%, Pitcher HR/9",2.49
+Player 17,Team D,0.293,Pitcher W,69.5,69.70387570777382,"Barrel%, Sprint Speed",11.3,Barrel%,2.3
+Player 18,Team E,0.271,Pitcher Y,69.3,72.25446471594121,"Pull%, Park Factor",8.4,"Pull%, Pitcher HR/9",2.7
+Player 19,Team A,0.284,Pitcher X,65.6,68.98782180921141,"Barrel%, Sprint Speed",8.5,"Pull%, Pitcher HR/9",2.32
+Player 20,Team D,0.284,Pitcher V,74.1,74.18293914463928,"Pull%, Park Factor",12.3,Barrel%,2.14
+Player 21,Team B,0.311,Pitcher Z,72.5,75.0604652914964,"Barrel%, Sprint Speed",14.0,"Pull%, Pitcher HR/9",1.19
+Player 22,Team E,0.307,Pitcher W,65.8,66.93247887598969,"Pull%, Park Factor",13.9,"Pull%, Pitcher HR/9",1.74
+Player 23,Team D,0.32,Pitcher Z,69.2,72.42586395204725,Recent Form,12.8,Barrel%,1.53
+Player 24,Team A,0.28,Pitcher Z,78.6,79.47183214502495,"Barrel%, Sprint Speed",11.4,"Pull%, Pitcher HR/9",1.49
+Player 25,Team A,0.293,Pitcher X,68.6,72.05468869051232,"Barrel%, Sprint Speed",5.8,Barrel%,2.95
