@@ -1,14 +1,26 @@
-Rank,Player,Team vs Matchup,Opposing Pitcher,Opp ERA,Split-Adjusted BA,LD%+,Pitcher Quality,Weather,Hit Potential Score / 100
-1,Freddie Freeman,Dodgers vs Rockies,Chase Dollander,6.19,0.342,125,Very Weak,Warm & Windy,96
-2,Shohei Ohtani,Dodgers vs Rockies,Chase Dollander,6.19,0.338,118,Very Weak,Warm & Windy,94
-3,Corey Seager,Rangers vs Orioles,Brandon Young,6.23,0.327,122,Weak,Sunny,91
-
-Legend:
-PHPS %: Projected Hit Probability Score (core model)
-"PHPS+ %: Enhanced model with advanced factors (weather, fatigue, protection, splits)"
-"PHPS-HR %: Likelihood of Home Run based on matchup, metrics"
-Split-Adjusted BA: Weighted BA using 70% season vs hand and 30% recent 7-day split
-LD%+: Line Drive rate adjusted for league context
-"Pitcher Quality: Derived from ERA, WHIP, fatigue, pitch type matchup"
-"Weather: Pulled live via OpenWeatherMap, boosts calculated"
-Boost Factors: Key variables giving PHPS+ or HR an extra edge
+Rank,Player,Team vs Matchup,Opposing Pitcher,ERA,Split-Adjusted Weighted BA,LD%+,Weather Boost,Hit Potential Score (out of 100)
+1,Player 1,Team1 vs Opponent1,Pitcher 1,2.0,0.25,90,0.0,70.0
+2,Player 2,Team2 vs Opponent2,Pitcher 2,2.75,0.26,92,0.25,74.5
+3,Player 3,Team3 vs Opponent3,Pitcher 3,3.5,0.27,94,0.5,79.0
+4,Player 4,Team4 vs Opponent4,Pitcher 4,4.25,0.28,96,0.0,76.0
+5,Player 5,Team5 vs Opponent5,Pitcher 5,5.0,0.29,98,0.25,80.5
+6,Player 6,Team6 vs Opponent6,Pitcher 6,2.0,0.25,90,0.5,75.0
+7,Player 7,Team7 vs Opponent7,Pitcher 7,2.75,0.26,92,0.0,72.0
+8,Player 8,Team8 vs Opponent8,Pitcher 8,3.5,0.27,94,0.25,76.5
+9,Player 9,Team9 vs Opponent9,Pitcher 9,4.25,0.28,96,0.5,81.0
+10,Player 10,Team10 vs Opponent10,Pitcher 10,5.0,0.29,98,0.0,78.0
+11,Player 11,Team1 vs Opponent1,Pitcher 11,2.0,0.25,90,0.25,72.5
+12,Player 12,Team2 vs Opponent2,Pitcher 12,2.75,0.26,92,0.5,77.0
+13,Player 13,Team3 vs Opponent3,Pitcher 13,3.5,0.27,94,0.0,74.0
+14,Player 14,Team4 vs Opponent4,Pitcher 14,4.25,0.28,96,0.25,78.5
+15,Player 15,Team5 vs Opponent5,Pitcher 15,5.0,0.29,98,0.5,83.0
+16,Player 16,Team6 vs Opponent6,Pitcher 16,2.0,0.25,90,0.0,70.0
+17,Player 17,Team7 vs Opponent7,Pitcher 17,2.75,0.26,92,0.25,74.5
+18,Player 18,Team8 vs Opponent8,Pitcher 18,3.5,0.27,94,0.5,79.0
+19,Player 19,Team9 vs Opponent9,Pitcher 19,4.25,0.28,96,0.0,76.0
+20,Player 20,Team10 vs Opponent10,Pitcher 20,5.0,0.29,98,0.25,80.5
+21,Player 21,Team1 vs Opponent1,Pitcher 21,2.0,0.25,90,0.5,75.0
+22,Player 22,Team2 vs Opponent2,Pitcher 22,2.75,0.26,92,0.0,72.0
+23,Player 23,Team3 vs Opponent3,Pitcher 23,3.5,0.27,94,0.25,76.5
+24,Player 24,Team4 vs Opponent4,Pitcher 24,4.25,0.28,96,0.5,81.0
+25,Player 25,Team5 vs Opponent5,Pitcher 25,5.0,0.29,98,0.0,78.0

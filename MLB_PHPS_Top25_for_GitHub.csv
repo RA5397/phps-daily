@@ -1,14 +1,26 @@
-Rank,Player,Team vs Matchup,Opposing Pitcher,Opp ERA,PHPS %,PHPS+ %,PHPS+ Boost Factors,PHPS-HR %,HR Boost Factors
-1,Freddie Freeman,Dodgers vs Rockies,Chase Dollander,6.19,83.5,85.2,"LD%+, Weather, Pitcher Fatigue",12.3,"Barrel%, Pull%, Park Factor"
-2,Shohei Ohtani,Dodgers vs Rockies,Chase Dollander,6.19,82.1,84.5,"Lineup Protection, Recent Form",13.8,"Exit Velo, xHR, Pull%"
-3,Corey Seager,Rangers vs Orioles,Brandon Young,6.23,80.2,83.1,"Platoon Matchup, BABIP Regression",11.5,"Barrel%, Park Factor"
-
-Legend:
-PHPS %: Projected Hit Probability Score (core model)
-"PHPS+ %: Enhanced model with advanced factors (weather, fatigue, protection, splits)"
-"PHPS-HR %: Likelihood of Home Run based on matchup, metrics"
-Split-Adjusted BA: Weighted BA using 70% season vs hand and 30% recent 7-day split
-LD%+: Line Drive rate adjusted for league context
-"Pitcher Quality: Derived from ERA, WHIP, fatigue, pitch type matchup"
-"Weather: Pulled live via OpenWeatherMap, boosts calculated"
-Boost Factors: Key variables giving PHPS+ or HR an extra edge
+Rank,Player,Team vs Matchup,Opposing Pitcher,ERA,PHPS Hit %,PHPS+ %,PHPS+ Boost Factors,HR %,HR Boost Factors
+1,Player 1,Team1 vs Opponent1,Pitcher 1,2.0,65.0,66.5,"Sprint Speed, Park Factor",2.0,"Weather, xHR"
+2,Player 2,Team2 vs Opponent2,Pitcher 2,2.75,67.1,68.6,"xwOBA, Shift Impact",2.5,"Barrel%, Pull%"
+3,Player 3,Team3 vs Opponent3,Pitcher 3,3.5,69.2,70.7,"Sprint Speed, Park Factor",3.0,"Weather, xHR"
+4,Player 4,Team4 vs Opponent4,Pitcher 4,4.25,71.3,72.8,"xwOBA, Shift Impact",3.5,"Barrel%, Pull%"
+5,Player 5,Team5 vs Opponent5,Pitcher 5,5.0,73.4,74.9,"Sprint Speed, Park Factor",4.0,"Weather, xHR"
+6,Player 6,Team6 vs Opponent6,Pitcher 6,2.0,75.5,77.0,"xwOBA, Shift Impact",2.0,"Barrel%, Pull%"
+7,Player 7,Team7 vs Opponent7,Pitcher 7,2.75,77.6,79.1,"Sprint Speed, Park Factor",2.5,"Weather, xHR"
+8,Player 8,Team8 vs Opponent8,Pitcher 8,3.5,79.7,81.2,"xwOBA, Shift Impact",3.0,"Barrel%, Pull%"
+9,Player 9,Team9 vs Opponent9,Pitcher 9,4.25,81.8,83.3,"Sprint Speed, Park Factor",3.5,"Weather, xHR"
+10,Player 10,Team10 vs Opponent10,Pitcher 10,5.0,83.9,85.4,"xwOBA, Shift Impact",4.0,"Barrel%, Pull%"
+11,Player 11,Team1 vs Opponent1,Pitcher 11,2.0,65.0,66.5,"Sprint Speed, Park Factor",2.0,"Weather, xHR"
+12,Player 12,Team2 vs Opponent2,Pitcher 12,2.75,67.1,68.6,"xwOBA, Shift Impact",2.5,"Barrel%, Pull%"
+13,Player 13,Team3 vs Opponent3,Pitcher 13,3.5,69.2,70.7,"Sprint Speed, Park Factor",3.0,"Weather, xHR"
+14,Player 14,Team4 vs Opponent4,Pitcher 14,4.25,71.3,72.8,"xwOBA, Shift Impact",3.5,"Barrel%, Pull%"
+15,Player 15,Team5 vs Opponent5,Pitcher 15,5.0,73.4,74.9,"Sprint Speed, Park Factor",4.0,"Weather, xHR"
+16,Player 16,Team6 vs Opponent6,Pitcher 16,2.0,75.5,77.0,"xwOBA, Shift Impact",2.0,"Barrel%, Pull%"
+17,Player 17,Team7 vs Opponent7,Pitcher 17,2.75,77.6,79.1,"Sprint Speed, Park Factor",2.5,"Weather, xHR"
+18,Player 18,Team8 vs Opponent8,Pitcher 18,3.5,79.7,81.2,"xwOBA, Shift Impact",3.0,"Barrel%, Pull%"
+19,Player 19,Team9 vs Opponent9,Pitcher 19,4.25,81.8,83.3,"Sprint Speed, Park Factor",3.5,"Weather, xHR"
+20,Player 20,Team10 vs Opponent10,Pitcher 20,5.0,83.9,85.4,"xwOBA, Shift Impact",4.0,"Barrel%, Pull%"
+21,Player 21,Team1 vs Opponent1,Pitcher 21,2.0,65.0,66.5,"Sprint Speed, Park Factor",2.0,"Weather, xHR"
+22,Player 22,Team2 vs Opponent2,Pitcher 22,2.75,67.1,68.6,"xwOBA, Shift Impact",2.5,"Barrel%, Pull%"
+23,Player 23,Team3 vs Opponent3,Pitcher 23,3.5,69.2,70.7,"Sprint Speed, Park Factor",3.0,"Weather, xHR"
+24,Player 24,Team4 vs Opponent4,Pitcher 24,4.25,71.3,72.8,"xwOBA, Shift Impact",3.5,"Barrel%, Pull%"
+25,Player 25,Team5 vs Opponent5,Pitcher 25,5.0,73.4,74.9,"Sprint Speed, Park Factor",4.0,"Weather, xHR"
