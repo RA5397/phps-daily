@@ -1,35 +1,14 @@
-Player,Team,Weighted BA,LD%+,Pitcher,ERA (3-digit),Weather Boost,Pitch Type Score,xwOBA 7-Day Trend,BvP Bonus,Hit Potential Score (out of 100)
-Mookie Betts,Dodgers,0.331,22.8,Chris Sale,3.12,0.75,0.47,-0.014,1.0,83.2
-Aaron Judge,Yankees,0.297,24.9,Tyler Wells,4.01,0.75,1.89,-0.042,1.5,66.5
-Freddie Freeman,Braves,0.324,26.8,Hunter Brown,4.55,0.25,4.31,-0.011,0.5,90.8
-Juan Soto,Padres,0.334,28.9,Logan Webb,3.72,0.0,2.79,-0.002,1.0,69.0
-Shohei Ohtani,Astros,0.294,27.4,Andrew Heaney,4.21,0.75,-1.06,0.005,0.0,60.3
-Ronald Acuña Jr.,Blue Jays,0.287,28.1,George Kirby,3.89,0.75,-1.27,-0.002,0.5,96.6
-Matt Olson,Guardians,0.274,24.1,Joe Ryan,4.35,0.0,-1.09,-0.012,0.0,64.6
-Trea Turner,Mets,0.312,27.2,Shota Imanaga,3.30,0.25,0.39,0.013,1.5,85.2
-Vladimir Guerrero Jr.,Phillies,0.339,27.9,Miles Mikolas,4.50,0.25,-0.57,0.005,1.0,94.7
-Jose Ramirez,Rays,0.312,22.3,Freddy Peralta,3.68,0.5,-0.38,0.014,1.5,94.8
-Kyle Tucker,Dodgers,0.278,24.8,Chris Sale,3.12,0.0,-1.52,0.021,0.0,78.3
-Adley Rutschman,Yankees,0.296,22.6,Tyler Wells,4.01,0.75,-0.26,-0.008,1.5,74.8
-Rafael Devers,Braves,0.278,20.1,Hunter Brown,4.55,0.0,-1.28,-0.037,1.0,62.8
-Marcus Semien,Padres,0.314,24.7,Logan Webb,3.72,0.75,1.09,0.01,1.0,67.2
-Julio Rodriguez,Astros,0.314,23.3,Andrew Heaney,4.21,0.25,-1.13,-0.003,0.0,62.9
-Bo Bichette,Blue Jays,0.303,22.7,George Kirby,3.89,0.5,-0.59,-0.001,1.5,71.0
-Yordan Alvarez,Guardians,0.31,23.9,Joe Ryan,4.35,0.75,1.82,0.008,0.5,62.3
-Wander Franco,Mets,0.295,21.7,Shota Imanaga,3.30,0.5,2.5,-0.02,1.5,85.8
-Luis Robert Jr.,Phillies,0.294,20.6,Miles Mikolas,4.50,0.25,0.02,0.013,1.0,86.8
-Corey Seager,Rays,0.276,25.1,Freddy Peralta,3.68,0.5,-0.51,-0.008,0.0,69.2
-Pete Alonso,Dodgers,0.278,22.2,Chris Sale,3.12,0.5,-0.17,-0.016,0.5,82.2
-Alex Bregman,Yankees,0.325,28.0,Tyler Wells,4.01,0.0,1.98,-0.019,0.0,64.2
-Fernando Tatis Jr.,Braves,0.298,29.3,Hunter Brown,4.55,0.25,0.35,0.011,0.0,82.3
-Bryce Harper,Padres,0.312,29.9,Logan Webb,3.72,0.0,-1.22,0.019,1.0,77.6
-Spencer Steer,Astros,0.291,24.6,Andrew Heaney,4.21,0.25,-1.9,-0.013,1.0,61.3
-,,,,,,,,,,
-Legend:,,,,,,,,,,
-Weighted BA,Split-adjusted batting average using season + recent stats (70/30 weighting),,,,,,,,,
-LD%+,Line Drive percentage relative to league average (from FanGraphs),,,,,,,,,
-Weather Boost,Positive value from high temperature or strong wind,,,,,,,,,
-Pitch Type Score,How well batter profiles against pitcher’s pitch mix,,,,,,,,,
-xwOBA 7-Day Trend,Expected weighted on-base average trend from past week,,,,,,,,,
-BvP Bonus,Bonus if batter has had success in ≥10 ABs vs today's pitcher,,,,,,,,,
-Hit Potential Score (out of 100),Normalized hit probability using all factors,,,,,,,,,
+Rank,Player,Team vs Matchup,Opposing Pitcher,Opp ERA,Split-Adjusted BA,LD%+,Pitcher Quality,Weather,Hit Potential Score / 100
+1,Freddie Freeman,Dodgers vs Rockies,Chase Dollander,6.19,0.342,125,Very Weak,Warm & Windy,96
+2,Shohei Ohtani,Dodgers vs Rockies,Chase Dollander,6.19,0.338,118,Very Weak,Warm & Windy,94
+3,Corey Seager,Rangers vs Orioles,Brandon Young,6.23,0.327,122,Weak,Sunny,91
+
+Legend:
+PHPS %: Projected Hit Probability Score (core model)
+"PHPS+ %: Enhanced model with advanced factors (weather, fatigue, protection, splits)"
+"PHPS-HR %: Likelihood of Home Run based on matchup, metrics"
+Split-Adjusted BA: Weighted BA using 70% season vs hand and 30% recent 7-day split
+LD%+: Line Drive rate adjusted for league context
+"Pitcher Quality: Derived from ERA, WHIP, fatigue, pitch type matchup"
+"Weather: Pulled live via OpenWeatherMap, boosts calculated"
+Boost Factors: Key variables giving PHPS+ or HR an extra edge
